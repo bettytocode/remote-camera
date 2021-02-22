@@ -97,7 +97,7 @@ function startLivestream($methodName = "startLiveview"){
 function stopLivestream($methodName = "stopLiveview"){
 
     //activateCameraRequest();
-    //sleep(5);
+    sleep(5);
 
     $ch = curl_init();
 
